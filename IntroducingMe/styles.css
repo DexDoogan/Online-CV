@@ -1,0 +1,122 @@
+::root{
+}
+
+body{
+  background-color: #061346;
+  color: GhostWhite;
+}
+
+.title{
+  border: 5px solid GhostWhite;
+  width: 25%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: 50%;
+  text-align: center;
+  border-radius: 5%;
+}
+
+h1{
+  padding-bottom: 0;
+}
+
+h2{
+  padding-top: 0;
+  padding-bottom: 5px;
+  font-size: 19px;
+}
+
+h3{
+  font-size: 17px;
+  text-align: center;
+  font-style: bold;
+}
+
+.about-me{
+  text-align: left;
+  border: none;
+}
+
+h4{
+  font-size: 16px;
+  text-decoration-line: underline;
+}
+
+h5{
+  margin: 0;
+}
+
+
+p, section ul{
+  margin: 2px;
+  font-size: 14px;
+}
+
+.personal-info p{
+  text-align: center;
+  font-size: 17px;
+}
+
+.work-experience section{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid GhostWhite;
+  padding: 5px;
+  margin-left: 0%;
+}
+
+.work-experience section:last-of-type{
+  border-bottom: none;
+}
+
+section{
+  border-bottom: 5px double GhostWhite;
+  margin-left: 25%; 
+  margin-bottom: 15px;
+}
+
+section:last-of-type{
+  border-bottom: 0;
+}
+
+#me{
+  width: 100px;
+  height: 100px;
+}
+
+nav{
+  background: #490E71;
+  position: fixed;
+  margin: 0;
+  padding: 5px;
+  height: 100%;
+  width: 20%;
+  text-align: center;
+}
+
+nav ul{
+  font-size: 20px;
+  font-style: bold;
+  text-align: left;
+}
+
+nav h1{
+  background-color: GhostWhite;
+  color: #490E71;
+  margin: 10px;
+  padding: 10px;
+}
+
+nav ul li a{
+  color: GhostWhite;
+  text-decoration: none;
+}
+
+nav ul li :hover{
+  color: grey;  
+}
+
+nav ul li a:active{
+  color: black;
+}
