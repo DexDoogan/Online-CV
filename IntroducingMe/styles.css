@@ -38,6 +38,12 @@ h3{
   border: none;
 }
 
+a i{
+  display: inline;
+  text-align: center;
+  width: 100%;
+}
+
 h4{
   font-size: 16px;
   text-decoration-line: underline;
